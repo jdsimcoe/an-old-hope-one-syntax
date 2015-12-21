@@ -12,14 +12,15 @@
     }
 
     atom-text-editor[mini].is-focused {
-        border-color: @artoo;
-        box-shadow: 0 0 0 1px @artoo;
+        border-color: @vader;
+        box-shadow: 0 0 0 1px @vader;
+        background-color: lighten(@vader, 40%);
     }
 
     .tab-bar {
         .tab {
             &::before {
-                background: @artoo;
+                background: @vader;
             }
 
             .title {
@@ -31,7 +32,7 @@
             }
 
             .close-icon {
-                color: @artoo !important;
+                color: @vader !important;
             }
         }
     }
@@ -47,19 +48,20 @@
     .tree-view {
         .header.list-item,
         .list-item {
-            color: lighten(@light-grey, 10%);
+            color: @light-grey;
         }
     }
 
     .settings-view {
         input[type="checkbox"]:checked {
-            background-color: @artoo;
+            background-color: @vader;
         }
 
         button.selected,
         .btn.btn-default.selected,
         .btn.btn-info {
-            background: @artoo;
+            background: @vader;
+            border-color: @vader;
 
             &:hover {
                 background: lighten(@artoo, 10%);
