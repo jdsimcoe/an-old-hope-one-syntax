@@ -24,11 +24,11 @@
             }
 
             .title {
-                color: @grey;
+                color: darken(@dark-grey, 20%);
             }
 
             &.active .title {
-                color: lighten(@very-dark-grey, 10%);
+                color: black;
             }
 
             .close-icon {
@@ -38,17 +38,17 @@
     }
 
     a.link {
-        color: @yoda;
+        color: @vader;
 
         &:hover {
-            color: @yoda;
+            color: @vader;
         }
     }
 
     .tree-view {
         .header.list-item,
         .list-item {
-            color: @dark-grey;
+            color: darken(@dark-grey, 20%);
         }
     }
 
@@ -64,7 +64,7 @@
             border-color: @vader;
 
             &:hover {
-                background: lighten(@artoo, 10%);
+                background: lighten(@vader, 10%);
             }
         }
     }
