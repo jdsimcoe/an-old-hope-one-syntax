@@ -11,7 +11,7 @@ class Jedi extends Model
      *
      * @var string
      */
-    const HERO = 'Luke Skywalke';
+    const HERO = 'Luke Skywalker';
 
     /**
      * These aren't the droids you're looking for.
