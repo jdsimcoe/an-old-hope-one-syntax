@@ -1,17 +1,13 @@
-# An Old Hope
+# An Old Hope (Awakened)
 
-Atom theme inspired by [a galaxy far far away...](https://raw.githubusercontent.com/JesseLeite/an-old-hope-syntax-atom/master/a-new-hope.jpg)
+Atom theme inspired by [a galaxy far far away...](https://raw.githubusercontent.com/jdsimcoe/an-old-hope-one-syntax/master/a-new-hope.jpg) and @JesseLeite's [work](https://github.com/JesseLeite/an-old-hope-syntax-atom).
 
-![palette](https://raw.githubusercontent.com/JesseLeite/an-old-hope-syntax-atom/master/palette.jpg)
+![palette](https://raw.githubusercontent.com/jdsimcoe/an-old-hope-one-syntax/master/palette.jpg)
 
 ## UI Integration
 
-This theme best integrates with Atom's [One Dark UI](https://atom.io/themes/one-dark-ui).  By default, UI is left untouched.  If you want the modified UI (as shown in the screenshot below) for better colour matching between UI syntax theme, add the following line to your Init Script and reload Atom.
-
-```coffee
-document.body.classList.add('an-old-hope-modify-ui')
-```
+This theme best integrates with Atom's [One Dark UI](https://atom.io/themes/one-dark-ui).
 
 ## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/JesseLeite/an-old-hope-syntax-atom/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/jdsimcoe/an-old-hope-one-syntax/master/screenshot.png)

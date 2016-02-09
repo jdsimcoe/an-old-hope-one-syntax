@@ -4,8 +4,7 @@ namespace Galaxy\Far\Far\Away;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Jedi extends Model
-{
+class Jedi extends Model {
     /**
      * Define Hero.
      *
